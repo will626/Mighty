@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:400,300,700|Open+Sans:400italic,300italic);
 body {
-  background-color: #fff
+  background-color: LightBlue;
 
 }
 
@@ -8,7 +8,7 @@ body {
   width: 100%;
   height: 100vh;
   position: relative;
-  background-image: url("../images/MIGHTY.jpg");
+  background-image: url("../images/Mightylogo.png");
   background-size: cover;
   background-position: center center;
 }

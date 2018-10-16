@@ -13,6 +13,11 @@ body {
   background-position: center center;
 }
 
+.title {
+  font-family: "Lucida Console", Monaco, monospace;
+  color: white;
+}
+
 
 /* ====================================
 Navigation

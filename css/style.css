@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:400,300,700|Open+Sans:400italic,300italic);
 body {
-  background-color: LightBlue;
+  background-color: #04142c;
 
 }
 
@@ -14,8 +14,12 @@ body {
 }
 
 .title {
-  font-family: "Lucida Console", Monaco, monospace;
+  font-family: "Work Sans", Monaco, monospace;
   color: white;
+  font-size: 30px;
+  padding: 30px;
+
+
 }
 
 
@@ -141,10 +145,6 @@ nav li:nth-of-type(5) {
   background-color: #99B998
 }
 
-
-/* ====================================
-Burger king
-==================================== */
 
 .open-overlay {
   position: absolute;
@@ -446,4 +446,45 @@ Animation keyframes
   nav li a:before {
     width: 25px;
   }
+}
+
+.mobile-drop--fake {
+        height: 90px;
+        position: inherit
+}
+
+.btn-special {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 60px;
+    width: 100%
+}
+
+.btn-special__modal {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    height: 100%;
+    margin-right: 2px;
+    padding: 0 25px;
+    background-color: #f44c4c;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    cursor: pointer
+}
+
+@media (min-width: 1024px) {
+    .btn-special {
+        height:48px;
+        width: auto;
+        border-radius: 4px;
+        overflow: hidden
+    }
 }

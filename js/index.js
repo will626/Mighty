@@ -71,4 +71,36 @@
          backDelay: 2500,
          loop: !0
      }
-  
+     , at = (new st.a(".js-typed",rt),
+       new st.a(".js-typed-mobile",rt),
+       function() {
+           function e(e, t) {
+               for (var i = 0; i < t.length; i++) {
+                   var n = t[i];
+                   n.enumerable = n.enumerable || !1,
+                   n.configurable = !0,
+                   "value"in n && (n.writable = !0),
+                   Object.defineProperty(e, n.key, n)
+               }
+           }
+           return function(t, i, n) {
+               return i && e(t.prototype, i),
+               n && e(t, n),
+               t
+           }
+       }());
+       new lt,
+           new ht,
+           "#giving" === window.location.hash && mt.searchDrawer("OPEN", mt._drawerInit[0]),
+           "#giving-monthly" === window.location.hash && (mt.searchDrawer("OPEN", mt._drawerInit[0]),
+           vt._tab[1],
+           vt.getContent(vt._tab[1], vt._tab[1].dataset.id),
+           vt.switchHeader(vt._tab[1].dataset.id)),
+           window.onhashchange = function() {
+               "#giving" === window.location.hash && mt.searchDrawer("OPEN", mt._drawerInit[0]),
+               "#giving-monthly" === window.location.hash && (mt.searchDrawer("OPEN", mt._drawerInit[0]),
+               vt._tab[1],
+               vt.getContent(vt._tab[1], vt._tab[1].dataset.id),
+               vt.switchHeader(vt._tab[1].dataset.id))
+           }
+           ;

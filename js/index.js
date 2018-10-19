@@ -59,3 +59,16 @@
          })
        }
      })
+     , tt = i(37)
+       , it = i.n(tt)
+       , nt = i(38)
+       , st = i.n(nt)
+       , rt = {
+         strings: ["Donate"],
+         typeSpeed: 200,
+         backSpeed: 150,
+         startDelay: 500,
+         backDelay: 2500,
+         loop: !0
+     }
+  

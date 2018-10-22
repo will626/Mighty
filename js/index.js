@@ -89,18 +89,3 @@
                t
            }
        }());
-       new lt,
-           new ht,
-           "#giving" === window.location.hash && mt.searchDrawer("OPEN", mt._drawerInit[0]),
-           "#giving-monthly" === window.location.hash && (mt.searchDrawer("OPEN", mt._drawerInit[0]),
-           vt._tab[1],
-           vt.getContent(vt._tab[1], vt._tab[1].dataset.id),
-           vt.switchHeader(vt._tab[1].dataset.id)),
-           window.onhashchange = function() {
-               "#giving" === window.location.hash && mt.searchDrawer("OPEN", mt._drawerInit[0]),
-               "#giving-monthly" === window.location.hash && (mt.searchDrawer("OPEN", mt._drawerInit[0]),
-               vt._tab[1],
-               vt.getContent(vt._tab[1], vt._tab[1].dataset.id),
-               vt.switchHeader(vt._tab[1].dataset.id))
-           }
-           ;

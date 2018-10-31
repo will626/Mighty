@@ -1,8 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:400,300,700|Open+Sans:400italic,300italic);
+
 body {
   background-color: #04142c;
-
 }
+
+
 
 .home {
   width: 100%;
@@ -18,15 +20,11 @@ body {
   color: white;
   font-size: 30px;
   padding: 30px;
-
-
 }
-
 
 /* ====================================
 Navigation
 ==================================== */
-
 .overlay-navigation {
   position: fixed;
   z-index: 99;
@@ -145,6 +143,9 @@ nav li:nth-of-type(5) {
   background-color: #99B998
 }
 
+nav li:nth-of-type(6) {
+  background-color: #99ccff
+}
 
 .open-overlay {
   position: absolute;
@@ -194,24 +195,25 @@ nav li:nth-of-type(5) {
   animation: animate-out-middle-bar .6s linear 1 both
 }
 
-
 /* ====================================
 Animation keyframes
 ==================================== */
-
 @-webkit-keyframes animate-top-bar {
   0% {
     background-color: #fff;
   }
+
   50% {
     -webkit-transform: translateY(9px);
     transform: translateY(9px)
   }
+
   80% {
     -webkit-transform: translateY(5px);
     transform: translateY(5px);
     background-color: #fff
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -223,15 +225,18 @@ Animation keyframes
   0% {
     background-color: #fff;
   }
+
   50% {
     -webkit-transform: translateY(9px);
     transform: translateY(9px)
   }
+
   80% {
     -webkit-transform: translateY(5px);
     transform: translateY(5px);
     background-color: #fff
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -243,15 +248,18 @@ Animation keyframes
   0% {
     background-color: #fff;
   }
+
   50% {
     -webkit-transform: translateY(-9px);
     transform: translateY(-9px)
   }
+
   80% {
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
     background-color: #fff;
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -263,15 +271,18 @@ Animation keyframes
   0% {
     background-color: #fff;
   }
+
   50% {
     -webkit-transform: translateY(-9px);
     transform: translateY(-9px)
   }
+
   80% {
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
     background-color: #fff;
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -283,9 +294,11 @@ Animation keyframes
   0% {
     background-color: #fff;
   }
+
   80% {
     background-color: #fff;
   }
+
   100% {
     background-color: #29363B;
   }
@@ -295,9 +308,11 @@ Animation keyframes
   0% {
     background-color: #fff;
   }
+
   80% {
     background-color: #fff;
   }
+
   100% {
     background-color: #29363B;
   }
@@ -307,15 +322,18 @@ Animation keyframes
   0% {
     background-color: #29363B
   }
+
   50% {
     -webkit-transform: translateY(9px);
     transform: translateY(9px)
   }
+
   80% {
     -webkit-transform: translateY(5px);
     transform: translateY(5px);
     background-color: #29363B
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -327,15 +345,18 @@ Animation keyframes
   0% {
     background-color: #29363B
   }
+
   50% {
     -webkit-transform: translateY(9px);
     transform: translateY(9px)
   }
+
   80% {
     -webkit-transform: translateY(5px);
     transform: translateY(5px);
     background-color: #29363B
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -347,15 +368,18 @@ Animation keyframes
   0% {
     background-color: #29363B
   }
+
   50% {
     -webkit-transform: translateY(-9px);
     transform: translateY(-9px)
   }
+
   80% {
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
     background-color: #29363B;
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -367,15 +391,18 @@ Animation keyframes
   0% {
     background-color: #29363B
   }
+
   50% {
     -webkit-transform: translateY(-9px);
     transform: translateY(-9px)
   }
+
   80% {
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
     background-color: #29363B;
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -387,9 +414,11 @@ Animation keyframes
   0% {
     background-color: #29363B
   }
+
   80% {
     background-color: #29363B;
   }
+
   100% {
     background-color: #fff;
   }
@@ -399,9 +428,11 @@ Animation keyframes
   0% {
     background-color: #29363B
   }
+
   80% {
     background-color: #29363B;
   }
+
   100% {
     background-color: #fff;
   }
@@ -426,65 +457,93 @@ Animation keyframes
   nav ul {
     flex-direction: column;
   }
+
   nav ul li {
     height: 20%;
   }
+
   nav ul li a {
     font-size: 11px;
   }
+
   nav li a:after {
     font-size: 0.6rem;
     bottom: -25px;
   }
+
   nav li a:hover:after {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
+
   .open-overlay {
     right: 1rem;
   }
+
   nav li a:before {
     width: 25px;
   }
 }
 
 .mobile-drop--fake {
-        height: 90px;
-        position: inherit
+  height: 90px;
+  position: inherit
 }
 
 .btn-special {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    height: 60px;
-    width: 100%
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 60px;
+  width: 100%
 }
 
 .btn-special__modal {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 0 auto;
-    flex: 1 0 auto;
-    height: 100%;
-    margin-right: 2px;
-    padding: 0 25px;
-    background-color: #f44c4c;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #fff;
-    cursor: pointer
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  height: 100%;
+  margin-right: 2px;
+  padding: 0 25px;
+  background-color: #f44c4c;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  cursor: pointer
 }
 
 @media (min-width: 1024px) {
-    .btn-special {
-        height:48px;
-        width: auto;
-        border-radius: 1px;
-        overflow: hidden
-    }
+  .btn-special {
+    height: 48px;
+    width: auto;
+    border-radius: 1px;
+    overflow: hidden
+  }
 }
+
+#codecademyLogo {
+  height: 50px;
+  width: auto;
+}
+
+#CodepenLogo {
+  height: 40px;
+  width: auto;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+<div class="footer"><p>Footer</p></div>

@@ -22,6 +22,7 @@ body {
   padding: 30px;
 }
 
+
 /* ====================================
 Navigation
 ==================================== */
@@ -453,6 +454,14 @@ Animation keyframes
   border-bottom: 1px solid #222;
 }
 
+#donate_btn {
+  right: 60;
+  left: 20;
+  position: static+;
+
+
+}
+
 @media (max-width: 640px) {
   nav ul {
     flex-direction: column;
@@ -526,17 +535,7 @@ Animation keyframes
   }
 }
 
-#codecademyLogo {
-  height: 50px;
-  width: auto;
-}
-
-#CodepenLogo {
-  height: 40px;
-  width: auto;
-}
-
-footer {
+.pls {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -546,4 +545,12 @@ footer {
   text-align: center;
 }
 
-<div class="footer"><p>Footer</p></div>
+.codecademyLogo {
+  height: 45px;
+  width: auto;
+}
+
+.CodepenLogo {
+  height: 45px;
+  width: auto;
+}

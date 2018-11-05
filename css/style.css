@@ -499,7 +499,7 @@ Animation keyframes
   position: inherit
 }
 
-.btn-special {
+.btn {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -507,7 +507,10 @@ Animation keyframes
   -ms-flex-align: center;
   align-items: center;
   height: 60px;
-  width: 100%
+  width: 12%;
+  position: absolute;
+  right: 170px;
+  top: 40px;
 }
 
 .btn-special__modal {
@@ -524,6 +527,7 @@ Animation keyframes
   letter-spacing: 2px;
   color: #fff;
   cursor: pointer
+
 }
 
 @media (min-width: 1024px) {

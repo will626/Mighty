@@ -454,13 +454,6 @@ Animation keyframes
   border-bottom: 1px solid #222;
 }
 
-#donate_btn {
-  right: 60;
-  left: 20;
-  position: static+;
-
-
-}
 
 @media (max-width: 640px) {
   nav ul {
@@ -527,8 +520,8 @@ Animation keyframes
   letter-spacing: 2px;
   color: #fff;
   cursor: pointer
-
 }
+
 
 @media (min-width: 1024px) {
   .btn-special {
@@ -557,4 +550,16 @@ Animation keyframes
 .CodepenLogo {
   height: 45px;
   width: auto;
+}
+
+.carousel
+.item {
+  height: 300px;
+}
+
+div.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
 }

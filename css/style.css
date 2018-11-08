@@ -19,6 +19,7 @@ body {
   font-family: "Work Sans", Monaco, monospace;
   color: white;
   font-size: 30px;
+  font-weight: bold;
   padding: 30px;
 }
 
@@ -67,12 +68,12 @@ nav li a {
   color: #fff;
   text-transform: uppercase;
   font-family: 'Work sans', sans-serif;
-  font-weight: 300;
+  font-weight: 350;
   letter-spacing: 4px;
   text-decoration: none;
   display: block;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   opacity: 0;
 }
 

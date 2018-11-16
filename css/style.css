@@ -629,8 +629,11 @@ input[type=submit] {
   font-family: "Work Sans", Monaco, monospace;
   color: white;
   text-align: center;
-  font-size: 25px;
+  font-size: 38px;
   font-weight: bold;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
 }
 
 #LP {
@@ -638,6 +641,4 @@ input[type=submit] {
   color: white;
   font-size: 18px;
   font-weight: bold;
-  width: 25%;
-  position: center;
 }

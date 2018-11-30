@@ -1,14 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:400,300,700|Open+Sans:400italic,300italic);
 
+html {
+
+}
+
 body {
-  background-color: #04142c;
+      background-image: linear-gradient(to bottom, #04142c, #0c1f3a, #152b49, #1f3759, #284369);
+
+
 }
 
 .home {
   width: 100%;
   height: 100vh;
   position: relative;
-  background-image: linear-gradient(to bottom, #04142c, #0c1f3a, #152b49, #1f3759, #284369);
   background-size: cover;
   background-position: center center;
 }
@@ -23,7 +28,7 @@ body {
 
 /* ====================================
 carousel
-
+#04142c
 .carouselbox {
   font-family: helvetica,sans-serif;
   font-size: 14px;
@@ -219,6 +224,13 @@ nav li:nth-of-type(6) {
 .animate-out-middle-bar {
   -webkit-animation: animate-out-middle-bar .6s linear 1 both;
   animation: animate-out-middle-bar .6s linear 1 both
+}
+
+.text {
+  margin: auto;
+  width: 50%;
+  padding: 50px;
+  color: white;
 }
 
 /* ====================================
@@ -645,4 +657,10 @@ ul#stats li{
   color: white;
   text-align: center;
   padding: 50px;
+}
+
+.friends img {
+display: block;
+margin-right: auto;
+margin-left: auto;
 }

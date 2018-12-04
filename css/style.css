@@ -233,6 +233,40 @@ nav li:nth-of-type(6) {
   color: white;
 }
 
+#LP {
+  font-family: "Work Sans", Monaco, monospace;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.stats {
+  align: center;
+  padding-bottom:50px;
+}
+
+.statbox {
+  display: inline-block;
+  width: 20%;
+  align: center;
+  text-align: center;
+  color: white;
+}
+
+
+
+
+.friends img {
+display: block;
+margin-right: auto;
+margin-left: auto;
+}
+
+#dreamcenter {
+
+}
+
+
 /* ====================================
 Animation keyframes
 ==================================== */
@@ -658,33 +692,4 @@ input[type=submit] {
   margin-right: auto;
   margin-left: auto;
   width: 50%;
-}
-
-#LP {
-  font-family: "Work Sans", Monaco, monospace;
-  color: white;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-ul#stats {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-size: 20px;
-}
-
-ul#stats li{
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 50px;
-}
-
-.friends img {
-display: block;
-margin-right: auto;
-margin-left: auto;
 }

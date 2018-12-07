@@ -1,13 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:400,300,700|Open+Sans:400italic,300italic);
 
-html {
-
-}
+html {}
 
 body {
-      background-image: linear-gradient(to bottom, #04142c, #0c1f3a, #152b49, #1f3759, #284369);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
+  background-image: linear-gradient(to bottom, #04142c, #0c1f3a, #152b49, #1f3759, #284369);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .home {
@@ -242,7 +240,7 @@ nav li:nth-of-type(6) {
 
 .stats {
   align: center;
-  padding-bottom:50px;
+  padding-bottom: 50px;
 }
 
 .statbox {
@@ -254,73 +252,107 @@ nav li:nth-of-type(6) {
 }
 
 .friends img {
-display: block;
-margin-right: auto;
-margin-left: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.dreamcenter {
-  float: right;
-  width: 100%;
-  height: 600px;
+.storefront {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/DC_IMG01.JPG");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.storefront_text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.storefront_text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.storefront_text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+#dcp {
+  font-family: "Work Sans", Monaco, monospace;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .column {
-    float: left;
-    width: 33.3%;
-    margin-bottom: 100px;
-    padding: 0 8px;
-
+  float: left;
+  width: 33.3%;
+  margin-bottom: 100px;
+  padding: 0 8px;
 }
-
 
 @media screen and (max-width: 650px) {
-    .column {
-        width: 100%;
-        display: block;
-    }
+  .column {
+    width: 100%;
+    display: block;
+  }
 }
-
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
 }
-
 
 .container2 {
-    padding: 0 16px;
+  padding: 0 16px;
 }
 
-
 .container2::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .title2 {
-    color: grey;
-    font-family: "Work Sans", Monaco, monospace;
-    font-size: 20px;
-
+  color: grey;
+  font-family: "Work Sans", Monaco, monospace;
+  font-size: 20px;
 }
 
 .button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
 }
 
 .button:hover {
-    background-color: #555;
+  background-color: #555;
 }
+
 
 
 /* ====================================
@@ -708,7 +740,7 @@ div.container {
   clear: both;
 }
 
-input[type=text], select, textarea{
+input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;

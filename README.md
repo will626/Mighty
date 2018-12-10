@@ -16,3 +16,5 @@ d)	Clay Simpson: Clay is an 18-year-old senior student at Madison Academic. Clay
 Along with the process of adding in all the content came the actual development of the website itself.
 Will Dixon is in charge of designing and progressing the website's development. He included the NavBar (which jack found) coded the main base of the website, and he organized the color scheme of the site along with the framework and outline.
 Jack Garland is the co-producer of the
+Our lead developer was William Russell Dixon. He was the core component in developing the website and integrating code into every bit and piece of the project. James Michael Garland was a huge contributor in developing the inner workings of certain aspects of each individual page. The site really pops up with life and energy after James adds his magic touch. 
+Specific parts to our website i can tell you about would be 

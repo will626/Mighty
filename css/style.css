@@ -276,7 +276,8 @@ nav li:nth-of-type(6) {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  margin-top: 430px;
+  margin-top: 390px;
+  margin-bottom: 60px;
 }
 
 .column {
@@ -721,12 +722,12 @@ Animation keyframes
 }
 
 .codecademyLogo {
-  height: 45px;
+  height: 20px;
   width: auto;
 }
 
 .CodepenLogo {
-  height: 45px;
+  height: 20px;
   width: auto;
 }
 
@@ -828,6 +829,7 @@ input[type=submit] {
   margin-top: 60px;
   margin-left: 75px;
   margin-right: auto;
+  margin-bottom: 100px;
   position: relative;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   font-family: "Work Sans", Monaco, monospace;

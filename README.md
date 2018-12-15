@@ -1,3 +1,4 @@
+***FOR THE NAVBAR TO WORK YOU MUST LOAD UNSAFE SCRIPTS IN THE LIVELENGTH****
 James Michael Garland, William Russell Dixon, and Dallas Joshua Moragne have comprised their talents and efforts into making the most well thought out, desgined website of all time. Mighty is the production of cooperation, effort, and a conscious decision to care. We came together for this project because we actually wanted to ignite a diffference in our community when it came to the safety of children in abusive relationships. Our site exhibits all the key qualities and designs of a top notch website and allows easy accesss and directibility throughout the entire ccampus of  Mighthy.
   I, Dallas Moragne, was in charge of adding in all the content into the website to spruce it up and give it some pop and flavor. People want to actually know what they are getting into when they venture into the deep abysses of a website. My job was to basically be their tour guide through the treacherous terrains of Mighty. Some of the content I have added into the website includes: information about the site, the founders, our goal, and mission statement.
   1)	About:
@@ -16,5 +17,13 @@ d)	Clay Simpson: Clay is an 18-year-old senior student at Madison Academic. Clay
 Along with the process of adding in all the content came the actual development of the website itself.
 Will Dixon is in charge of designing and progressing the website's development. He included the NavBar (which jack found) coded the main base of the website, and he organized the color scheme of the site along with the framework and outline.
 Jack Garland is the co-producer of the
-Our lead developer was William Russell Dixon. He was the core component in developing the website and integrating code into every bit and piece of the project. James Michael Garland was a huge contributor in developing the inner workings of certain aspects of each individual page. The site really pops up with life and energy after James adds his magic touch. 
-Specific parts to our website i can tell you about would be 
+Our lead developer was William Russell Dixon. He was the core component in developing the website and integrating code into every bit and piece of the project. James Michael Garland was a huge contributor in developing the inner workings of certain aspects of each individual page. The site really pops up with life and energy after James adds his magic touch.
+Specific parts to our website i can tell you about would be
+**PROBLEMS
+<ul>
+  <li>the suggested donate buttons should be horizontally aligned</li>
+  <li>the sketchy navbar</li>
+  <li>did not get around to making the entire website responsive</li>
+  <li>had trouble getting the paragraph below the hero image on the charity page to actually go below the image</li>**
+
+  *Major Shoutout to the G.{Coding Teacher}.O.A.T.........Brian Bucholz(P.S. might have misspelled last name)

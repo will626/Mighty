@@ -62,7 +62,28 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js'></script>
 
 <!--Homepage Content-->
+<!--The "custom pay buttons" are supposed to align horizontally, but they are vertical-->
+<div class="container5">
+  <div class="quickLinksWrap">
 
+<input type="hidden" name="amount" value="$25.00"/>
+<button type="submit" class="customPayButton">$25</button>
+<input type="hidden" name="amount" value="$50.00"/>
+<button type="submit" class="customPayButton">$50</button>
+
+
+<input type="hidden" name="amount" value="$75.00"/>
+<button type="submit" class="customPayButton">$75</button>
+
+<button type="submit" class="customPayButton">$100</button>
+</form>
+  </div>
+  <h1 class="h01"> OR </h1>
+  <p class="p2">Enter a custom price.</p>
+<input type="text" name="amount" value="" placeholder="$0.00" />
+<button type="submit" class="customPayButton">Pay</button>
+</form>
+</div>
 
 
 

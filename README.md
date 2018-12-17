@@ -21,9 +21,12 @@ Our lead developer was William Russell Dixon. He was the core component in devel
 Specific parts to our website i can tell you about would be
 **PROBLEMS
 <ul>
-  <li>the suggested donate buttons should be horizontally aligned</li>
+  <li>the suggested donate buttons on the Donation Page should be horizontally aligned</li>
   <li>the sketchy navbar</li>
   <li>did not get around to making the entire website responsive</li>
-  <li>had trouble getting the paragraph below the hero image on the charity page to actually go below the image</li>**
+  <li>had trouble getting the paragraph below the hero image on the charity page to actually go below the image</li>
+  <li>Could not get Clay Simpson Picture because he is not a fan of cameras</li>
+  <li>the responsive text boxes on the LTK page changed formatting when I created the Donation page</li>**
+
 
   *Major Shoutout to the G.{Coding Teacher}.O.A.T.........Brian Bucholz(P.S. might have misspelled last name)
